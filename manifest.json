@@ -1,0 +1,34 @@
+{
+
+  "manifest_version": 2,
+
+  "name": "CloudSpokes",
+  "version": "2.0",
+  "description": "Quick and handy access to the latest CloudSpokes challenges, your payments, leaderboards and more!",
+
+  "browser_action": {
+    "default_icon": "images/icons/icon.png",
+    "default_title": "CloudSpokes",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "alarms",
+    "notifications",
+    "http://*.cloudspokes.com/*"
+  ],
+
+  "background": {
+    "page": "html/notification.html",
+    "persistent": false
+  },
+
+  "icons": {
+    "16": "images/icons/icon16.png",
+    "48": "images/icons/icon48.png",
+    "128": "images/icons/icon128.png"
+  },
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://script.google.com https://script.googleusercontent.com https://ajax.googleapis.com; object-src 'self'"
+
+}

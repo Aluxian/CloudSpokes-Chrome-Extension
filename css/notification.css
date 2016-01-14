@@ -1,0 +1,15 @@
+body {
+	padding: 5px;
+	background: rgb(245, 245, 245);
+}
+
+h3 {
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	color: #de7a20;
+}
+
+p {
+	margin-bottom: 4px;
+}

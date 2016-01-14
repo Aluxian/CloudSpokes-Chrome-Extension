@@ -1,0 +1,393 @@
+/* Body */
+body {
+	width: 780px;
+	padding: 10px;
+	font-size: 14px;
+	background-color: rgb(252, 252, 252);
+}
+
+a, a:hover {
+   color: #de7a20;
+   cursor: pointer;
+}
+
+/* Header */
+header {
+	height: 50px;
+	margin-top: 10px;
+}
+
+header > a, header > a:hover {
+	font-size: 22px;
+	text-decoration: none;
+}
+
+header > ul {
+	margin-top: -8px;
+}
+
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+	color: #ffffff;
+	background-color: #de7a20;
+}
+
+.nav .dropdown-toggle .caret {
+	border-top-color: #de7a20;
+	border-bottom-color: #de7a20;
+}
+
+.navbar-inner {
+	padding-left: 0;
+	padding-right: 5px;
+}
+
+.search-query {
+	margin-bottom: 0;
+}
+
+/* Pages */
+.alert {
+	font-size: 20px;
+	text-align: center;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 30px;
+}
+
+.container {
+	width: 780px;
+}
+
+.wrapper {
+	max-height: 580px;
+	overflow: hidden;
+}
+
+.well {
+	position: relative;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #eeeeee;
+	line-height: 20px;
+}
+
+.well h3 {
+	font-size: 18px;
+	line-height: 20px;
+	margin-top: -2px;
+	margin-bottom: 5px;
+}
+
+.well p {
+	margin-bottom: 8px;
+}
+
+.well blockquote {
+	margin-bottom: 2px;
+	padding-left: 3px;
+}
+
+blockquote small {
+	line-height: 16px;
+	margin-left: 5px;
+}
+
+blockquote small:before {
+	content: none;
+}
+
+/* Home */
+#stats {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#stats span {
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+
+#stats span:last-child {
+	margin-right: 0;
+}
+
+.title {
+	margin-top: -10px;
+	text-align: center;
+	background: url("../images/title-bg.png") left center repeat-x;
+}
+
+.title h1 {
+	padding: 0 10px;
+	background: rgb(252, 252, 252);
+	display: inline-block;
+	color: #d1d1d1;
+	font-weight: normal;
+	font-size: 25px;
+}
+
+/* Challenges */
+.slider {
+	position: relative;
+	overflow: hidden;
+}
+
+.slider li {
+	list-style: none;
+	float: left;
+}
+
+.slider li:first-child {
+	margin-left: -25px;
+}
+
+.pagination {
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+}
+
+footer img {
+	width: 32px;
+}
+
+
+/* Tables */
+.dataTables_length {
+	width: 40%;
+	float: left;
+}
+
+.dataTables_length label select {
+	display: inline;
+}
+
+.dataTables_filter {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.dataTables_filter label input {
+	display: inline;
+}
+
+.dataTables_info {
+	width: 60%;
+	float: left;
+}
+
+.dataTables_paginate {
+	float: right;
+	text-align: right;
+}
+
+table.type {
+	position: absolute;
+	top: -9px;
+	right: 15px;
+	width: 93px;
+	height: 84px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	color: #fff;
+	text-align: center;
+	background-image: url("../images/type.png");
+	background-repeat: no-repeat;
+}
+
+.form-search {
+	padding-bottom: 17px;
+}
+
+.filter label {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 0;
+	font-size: 16px;
+	line-height: 39px;
+}
+
+#leaderboardTable_wrapper {
+	padding: 10px;
+}
+
+#leaderboardTable {
+	width: 100%;
+}
+
+#leaderboardTable td {
+	text-align: center;
+}
+
+#leaderboardTable tr {
+	line-height: 20px;
+}
+
+.dataTables_info {
+	margin-top: 4px;
+}
+
+#leaderboardTable_next, #paymentsTable_next, #myChallengesTable_next, #inboxTable_next {
+	margin-left: 10px;
+}
+
+#leaderboardFilters {
+	padding-bottom: 17px;
+}
+
+#leaderboardFilters input {
+	float: right;
+}
+
+
+
+#platformSelector, #technologySelector {
+	margin-right: 5px;
+}
+
+.navigationRow {
+	display: inline-block;
+	margin-bottom: -7px;
+}
+
+.navigationRow:last-child {
+	margin-bottom: -7px;
+	margin-top: 8px;
+	display: none;
+}
+
+#toggleDropdown img {
+	width: 20px;
+	height: 15px;
+	margin-bottom: -3px;
+}
+
+.tagUrl {
+	cursor: pointer;
+}
+
+#homeContainer {
+	text-align: center;
+}
+
+.menuItem {
+	float: right;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+
+
+#resetFilters {
+	margin-left: 5px;
+}
+
+
+
+.task {
+	background-position: 0 0;
+}
+
+.code {
+	background-position: -186px 0;
+}
+
+.sweep-stakes{
+	background-position: -93px 0;
+}
+
+.rookie {
+	background-position: -279px 0;
+}
+
+.design {
+	background-position: -372px 0;
+}
+
+.featured {
+	background-position: -465px 0;
+}
+
+.feedList {
+	list-style-type: none;
+	margin-left: 0;
+	font-size: 16px;
+	text-align: left;
+}
+
+.feedList li {
+	padding: 3px;
+}
+
+.feedList p {
+	margin-bottom: 0;
+}
+
+.social-feed-element {
+	background-color: rgb(252, 252, 252);
+	margin: 1px;
+	margin-bottom: 5px;
+	border: none;
+}
+
+.social-feed-element .media-body > p {
+	margin-bottom: 0;
+}
+
+.accordion-group {
+	border: none;
+}
+
+.accordion-heading .accordion-toggle {
+	padding: 3px 15px;
+}
+
+.read_more {
+	float: right;
+	margin-top:  -20px;
+}
+
+.accordion-inner p {
+	margin-bottom: 0;
+}
+
+.accordion-body .well {
+	margin-bottom: 10px;
+}
+
+#inboxFilters, #paymentsFilters, #myChallengesFilters {
+	padding-bottom: 17px;
+}
+
+#inboxFilters input, #paymentsFilters input, #myChallengesFilters input {
+	float: right;
+}
+
+#inboxTable, #paymentsTable, #myChallengesTable {
+	text-align: center;
+	width: 100%;
+}
+
+.login {
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login input[type="password"] {
+	margin-bottom: 40px;
+}
+
+.login button {
+	margin-top: -30px;
+}
